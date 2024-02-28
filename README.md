@@ -5,15 +5,15 @@ Mutithread your programme with my robust and straightforward C++ Thread Manager.
 
 **Motivation:** While working on CPU heavy engineering design tasks such as conceptual design of a UAV, often I encountered the need for more performance and speed on my laptop. Generic C++ <threads> library, while powerful, often burden users with heafty responsibilities related to thread safety and efficient memory management. Furthermore, off-the-self public multithreading libraries are often too heavy and require understanding of complex multithreading concepts and are mainly aimed for seasoned developers such as game-devs. Thus, I created a lightweight and simple header file to allow for more performance and speed in my code and not worry about complex multithreading concepts all the time. This file has been a game-changer for me, transforming the way I work and propelling me beyond what I had initially envisioned. Give it a try, experience the difference, and lemmino.
 
-**Seamless Integration:**
+## How to start?
 No complexity here – a hassle-free header-only solution. Copy, paste, include, and multithread.
 
-**Comprehensive Operation Support:**
+## What can it do?
 The header file supports task injection including static and non-static methods, lambda functions, pure functions, and even recursive multithreading task pusher functions. This flexibility ensures your code aligns perfectly with your project's unique requirements. Furthurmore, specialisations for loop parallasation are also implemented for multithreading 'for' loops
 
 Designed to facilitate both asynchronous and synchronous tasks, with or without return values allowing for more control over task order and achieve synchronization with ease.
 
-**How to Use:**
+## How to Use?
 - **Declaration:** Declare an object instance of the class in your code.
 - **Core Configuration:** Define the number of cores explicitly or let the class determine the maximum multithreading configuration for your setup.
 - **Single Task Submission:** Utilize the submit_task method to dispatch a single function that returns a result. The method returns a promise object, allowing for synchronisation and retrieval of the function's output at your convenience.
