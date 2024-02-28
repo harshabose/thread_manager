@@ -14,7 +14,7 @@ The header file supports task injection including static and non-static methods,
 Designed to facilitate both asynchronous and synchronous tasks, with or without return values allowing for more control over task order and achieve synchronization with ease.
 
 ## How to Use?
-- **Declaration:** Declare an object instance of the class in your code.
+- **Declaration:** Declare an object instance of the *thread_manager* class in your code.
 - **Core Configuration:** Define the number of cores explicitly or let the class determine the maximum multithreading configuration for your setup.
 - **Single Task Submission:** Utilize the submit_task method to dispatch a single function that returns a result. The method returns a promise object, allowing for synchronisation and retrieval of the function's output at your convenience.
 - Single Task Execution without Return: Employ the push_task method for scenarios where a function doesn't return a value. This is perfect for tasks where the focus is on execution rather than output.
