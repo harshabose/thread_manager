@@ -11,8 +11,7 @@ No complexity here – a hassle-free header-only solution. Copy, paste, include,
 **Comprehensive Operation Support:**
 The header file supports task injection including static and non-static methods, lambda functions, pure functions, and even recursive multithreading task pusher functions. This flexibility ensures your code aligns perfectly with your project's unique requirements. Furthurmore, specialisations for loop parallasation are also implemented for multithreading 'for' loops
 
-Sequential Execution Focus:
-Designed to facilitate both asynchronous and synchronous tasks, with or without return values, the Thread Manager ensures a sequential execution that meets the demands of your project. Maintain control over task order and achieve synchronization with ease.
+Designed to facilitate both asynchronous and synchronous tasks, with or without return values allowing for more control over task order and achieve synchronization with ease.
 
 **How to Use:**
 - **Declaration:** Declare an object instance of the class in your code.
