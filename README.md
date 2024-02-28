@@ -23,4 +23,4 @@ Designed to facilitate both asynchronous and synchronous tasks, with or without 
 - **For Loop Execution without Return:** Opt for the push_loop method when dispatching a for loop wrapped within a function that doesn't return a value allowing for pure loop parallisation.
 - **Additional Functionality:** Explore additional class methods crafted to enhance your experience. Redefine the number of cores in use, wait until all tasks in the queue are completed, and more.
 
-**NOTE:** Some documentation work is remaining. std::cin.ignore that
+**NOTE:** Some documentation work is left. std::cin.ignore that
