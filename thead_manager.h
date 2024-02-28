@@ -1,6 +1,6 @@
 /**
  * @file thead_manager.h
- * @author Bose
+ * @author Harshavardhan Karnati
  * @brief Multi-threading for C++
  * @version 1.0
  * @date 2024-01-04
