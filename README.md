@@ -20,6 +20,6 @@ Designed to facilitate both asynchronous and synchronous tasks, with or without 
 - Single Task Execution without Return: Employ the *push_task* method for scenarios where a function doesn't return a value. This is perfect for tasks where the focus is on execution rather than output.
 - **For Loop Submission (with Return):** Leverage the *submit_loop* method to send a for loop encapsulated within a function that returns a result. This function returns a vector of promise objects, allowing you to manage and retrieve results seamlessly.
 - **For Loop Execution without Return:** Opt for the *push_loop* method when dispatching a for loop wrapped within a function that doesn't return a value allowing for pure loop parallisation.
-- **Additional Functionality:** Explore additional class methods crafted to enhance your experience. Redefine the number of cores in use, wait until all tasks in the queue are completed, and more.
+- **Additional Functionality:** Additional class methods are included such as redefine the number of cores in use, wait until all tasks in the queue are completed, and more.
 
 **NOTE:** Some documentation work is left. std::cin.ignore that
