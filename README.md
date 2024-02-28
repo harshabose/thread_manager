@@ -15,10 +15,10 @@ Sequential Execution Focus:
 Designed to facilitate both asynchronous and synchronous tasks, with or without return values, the Thread Manager ensures a sequential execution that meets the demands of your project. Maintain control over task order and achieve synchronization with ease.
 
 **How to Use:**
-- **Declaration:** Declare an object instance of the class, establishing the foundation for streamlined multithreading in your project.
-- **Core Configuration:** Define the number of cores explicitly or let the class effortlessly determine the optimal configuration for you.
-- **Single Task Submission:** Utilize the submit_task method to dispatch a single function that returns a result. The method returns a promise object, enabling you to synchronize and retrieve the function's output at your convenience.
+- **Declaration:** Declare an object instance of the class in your code.
+- **Core Configuration:** Define the number of cores explicitly or let the class determine the maximum multithreading configuration for your setup.
+- **Single Task Submission:** Utilize the submit_task method to dispatch a single function that returns a result. The method returns a promise object, allowing for synchronisation and retrieval of the function's output at your convenience.
 - Single Task Execution without Return: Employ the push_task method for scenarios where a function doesn't return a value. This is perfect for tasks where the focus is on execution rather than output.
 - **For Loop Submission (with Return):** Leverage the submit_loop method to send a for loop encapsulated within a function that returns a result. This function returns a vector of promise objects, allowing you to manage and retrieve results seamlessly.
-- **For Loop Execution without Return:** Opt for the push_loop method when dispatching a for loop wrapped within a function that doesn't return a value. Efficiently execute tasks without the need for output handling.
+- **For Loop Execution without Return:** Opt for the push_loop method when dispatching a for loop wrapped within a function that doesn't return a value allowing for pure loop parallisation.
 - **Additional Functionality:** Explore additional class methods crafted to enhance your experience. Redefine the number of cores in use, wait until all tasks in the queue are completed, and more.
