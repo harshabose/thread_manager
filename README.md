@@ -22,4 +22,20 @@ Designed to facilitate both asynchronous and synchronous tasks, with or without 
 - **For Loop Execution without Return:** Opt for the *push_loop* method when dispatching a for loop wrapped within a function that doesn't return a value allowing for pure loop parallisation.
 - **Additional Functionality:** Additional class methods are included such as redefine the number of cores in use, wait until all tasks in the queue are completed, and more.
 
+``` C++
+  auto thread_manager = thread_manager_h::thread_manager();
+
+  thread_manager.push_task(func, arg_1, arg_2, 52);
+
+  auto return_ptr = thread_manager.submit_task(func_, arg_1, arg_2, 52);
+  auto return_val = return_ptr.get();
+
+  thread_manager.push_loop(loop_func, 0, 100, arg_1, arg_2, 52);
+
+  auto loop_return_ptr = thread_manager.submit_loop(loop_func_, arg_1, arg_2, 52);
+  auto loop_return_val_1_ = return_ptr[0].get();
+
+  thread_manager.wait_for_all_tasks_in_que();
+```
+
 **NOTE:** Some documentation work is left. std::cin.ignore that
