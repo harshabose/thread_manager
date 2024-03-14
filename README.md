@@ -30,14 +30,14 @@ Designed to facilitate both asynchronous and synchronous tasks, with or without 
   thread_manager.push_task(func, arg_1, arg_2, 52);
 
   // launch a thread with function which can return
-  auto return_ptr = thread_manager.submit_task(func_, arg_1, arg_2, 52);
+  auto return_ptr = thread_manager.submit_task(func_, arg_1, arg_2, 42);
   auto return_val = return_ptr.get();
 
   // loop parallelisation from 0 to 100 with 4 threads and arguments as given
-  thread_manager.push_loop(loop_func, 0, 100, 4, arg_1, arg_2, 52);
+  thread_manager.push_loop(loop_func, 0, 100, 4, arg_1, arg_2, 51);
 
   // loop parallelisation with return from 0 to 100 with 4 threads and arguments as given
-  auto loop_return_ptr = thread_manager.submit_loop(loop_func_, 0, 100, 4 arg_1, arg_2, 52);
+  auto loop_return_ptr = thread_manager.submit_loop(loop_func_, 0, 100, 4 arg_1, arg_2, 28);
   auto loop_return_val_1_ = return_ptr[0].get();
 
   // waits for all tasks in the que
