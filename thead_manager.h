@@ -336,7 +336,6 @@ private:
     -> Task Completion Handling                                             (pass)
     -> Error Handling                                                       (work needed)
     -> Idle Thread Management                                               (pass)
-    -> Graceful Shutdown                                                    (work needed)
     -> specifying thread affinity, stack size, or other thread attributes   (not possible)
     -> Compatibility                                                        (pass)
 
