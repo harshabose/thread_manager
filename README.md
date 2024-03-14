@@ -1,5 +1,5 @@
 # thread_manager
-A versatile and simple C++ multi threading manager
+A versatile and simple C++11 multi threading manager
 
 Mutithread your programme with my robust and straightforward C++ Thread Manager. Tailored to handle engineering and mathematical operations, this header-only implementation seamlessly integrates into diverse projects.
 
